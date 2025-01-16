@@ -35,7 +35,7 @@ ada 2 cara untuk menjalankan visualisasi streamlit yaitu secara lokal dan secara
     streamlit run visualisasi.py
     ```
 2. akses visualisasi melalui streamlit cloud (Online): 
-   [Olist Ecommerce Data Analysis]([https://yunico-data-analytic.streamlit.app/](https://olist-ecommerce-analyst-data-canmsn6as4dekxyiweyscv.streamlit.app/))
+   [Olist Ecommerce Data Analysis](https://olist-ecommerce-analyst-data-canmsn6as4dekxyiweyscv.streamlit.app/)
 
 ## Kontak
 Jika Anda memiliki pertanyaan, hubungi ke email: yunicoardian123@gmail.com
