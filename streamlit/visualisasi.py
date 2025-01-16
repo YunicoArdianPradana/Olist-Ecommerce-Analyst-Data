@@ -20,15 +20,15 @@ def load_data():
     # zip_file.close()
 
     # Read the datasets
-    df_customer = pd.read_csv('../datasets/olist_customers_dataset.csv')
-    df_geolocation = pd.read_csv('../datasets/olist_geolocation_dataset.csv')
-    df_order_items = pd.read_csv('../datasets/olist_order_items_dataset.csv')
-    df_order_payments = pd.read_csv('../datasets/olist_order_payments_dataset.csv')
-    df_order_reviews = pd.read_csv('../datasets/olist_order_reviews_dataset.csv')
-    df_orders_dataset = pd.read_csv('../datasets/olist_orders_dataset.csv')
-    df_products_dataset = pd.read_csv('../datasets/olist_products_dataset.csv')
-    df_sellers_dataset = pd.read_csv('../datasets/olist_sellers_dataset.csv')
-    df_product_name = pd.read_csv('../datasets/product_category_name_translation.csv')
+    df_customer = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_customers_dataset.csv')
+    df_geolocation = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_geolocation_dataset.csv')
+    df_order_items = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_order_items_dataset.csv')
+    df_order_payments = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_order_payments_dataset.csv')
+    df_order_reviews = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_order_reviews_dataset.csv')
+    df_orders_dataset = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_orders_dataset.csv')
+    df_products_dataset = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_products_dataset.csv')
+    df_sellers_dataset = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/olist_sellers_dataset.csv')
+    df_product_name = pd.read_csv('https://raw.githubusercontent.com/YunicoArdianPradana/Olist-Ecommerce-Analyst-Data/refs/heads/master/datasets/product_category_name_translation.csv')
 
     # Data Cleaning
     df_geolocation.drop_duplicates(inplace=True)
